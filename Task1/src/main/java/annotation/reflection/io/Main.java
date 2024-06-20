@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException, InstantiationException {
         Reflection ref = new Reflection();
         DataContainer dataContainer = new DataContainer();
-        ref.reflection(1, 1, dataContainer);
+        ref.reflection(3, 15, dataContainer);
     }
 }

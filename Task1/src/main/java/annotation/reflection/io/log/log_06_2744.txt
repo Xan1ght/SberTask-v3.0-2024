@@ -1,0 +1,3 @@
+DataContainer(year=2003, name=Денис, id=4)
+DataContainer(year=2002, name=Дима, id=44)
+

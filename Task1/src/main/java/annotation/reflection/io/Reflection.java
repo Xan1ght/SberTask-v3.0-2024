@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Reflection {
+    IOC ioc = new IOC();
+    String rider = "";
+
     public List<Class> init(List<Class> child) {
         child.add(Child0.class);
         child.add(Child1.class);
@@ -29,6 +32,7 @@ public class Reflection {
             for(Method m: ms){
                 m.invoke(s, dataContainer);
                 System.out.println(dataContainer.toString());
+                rider = rider + dataContainer.toString() + '\n';
             }
         }
     }
@@ -38,5 +42,6 @@ public class Reflection {
         init(child);
         child = searchNeed(child, day);
         invoke(child, hour, dataContainer);
+        ioc.writeFile(rider);
     }
 }
