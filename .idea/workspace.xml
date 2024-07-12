@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5970f80-0b88-4c27-b73b-957538c88e06" name="Changes" comment="Создал реп">
+      <change afterPath="$PROJECT_DIR$/Context_Spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/bean/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/bean/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/bean/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/bean/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/component/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/component/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/component/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/component/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/component/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/task2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/task2/BankClientsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/task2/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/task2/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/main/java/context/spring/task2/TransferByPhoneApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/test/java/context/spring/bean/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/test/java/context/spring/component/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context_Spring/src/test/java/context/spring/task2/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2j3tnrPbl7OaXW9qp8xOCxu0jgZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="context-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="context.spring.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="context.spring.task2" />
+      <option name="MAIN_CLASS_NAME" value="context.spring.task2.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.checkUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="context-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="context.spring.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="context.spring.task2" />
+      <option name="MAIN_CLASS_NAME" value="context.spring.task2.AppTest" />
+      <option name="METHOD_NAME" value="checkUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="context-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="context.spring.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="context.spring.bean" />
+      <option name="MAIN_CLASS_NAME" value="context.spring.bean.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="context-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="context.spring.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="context.spring.component" />
+      <option name="MAIN_CLASS_NAME" value="context.spring.component.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.main (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="context-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="context.spring.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="context.spring.component" />
+      <option name="MAIN_CLASS_NAME" value="context.spring.component.MainTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.checkUser" />
+        <item itemvalue="JUnit.MainTest (1)" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5970f80-0b88-4c27-b73b-957538c88e06" name="Changes" comment="" />
+      <created>1720627758977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720627758977</updated>
+    </task>
+    <servers />
+  </component>
+</project>
