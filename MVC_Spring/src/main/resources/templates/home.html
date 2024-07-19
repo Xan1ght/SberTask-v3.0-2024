@@ -1,0 +1,20 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body style="display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid ${color};
+            margin-bottom: 30px;
+            padding: 15px;
+            overflow-x: auto;">
+<h1>Добро пожаловать, <span th:style="'color:' + ${color}"
+                  th:text="${username}"></span>!</h1>
+<p>Вот она, вот она рыба моей мечты</p>
+<span th:style="'font-size:' + ${size}"
+      th:text="${youStr}"></span>
+
+</body>
+</html>
